@@ -32,8 +32,8 @@
                                 <img class="bk_preview" src="{{$cart['img']}}" class="m3_preview" onclick=""/>
                                 <div product_id="{{$cart['id']}}" style="position: absolute; left: 130px; right: 0; top: 5px;">
                                     <span>{{$cart['name']}}</span>
-                                    <span class="price danjia">单价:{{$cart['price']}}</span>
-                                    <p><input onclick="_ondelete(this);" style="float: right;margin-right: 15px;: " class="weui_btn weui_btn_mini weui_btn_default" type="button" value="删除"></button></p>
+                                    <span class="price danjia">{{$cart['price']}}</span>           
+                                    <input onclick="_delcart(this);" style="float: right;margin-top: 20px; margin-right:20px;padding: 5px; " class="weui_btn weui_btn_mini weui_btn_default" type="button" value="删除">
                                     <p class="bk_time" style="margin-top: 0px;">数量:
                                         <span class="bk_summary">
                                     <input class="weui_btn weui_btn_mini weui_btn_default" onclick="_jian(this)"
@@ -63,15 +63,16 @@
                 </div>
             </div>
             
-           
+           @if($title>null)
             <div class="bk_fix_bottom">
                 <div class="bk_half_area">
-                    <button onclick="_gochage()" class="weui_btn weui_btn_primary" onclick="_toCharge();">合计：{{$title}}元&nbsp;去结算></button>
+                    <button onclick="_gochage()" class="weui_btn weui_btn_primary" onclick="_toCharge();">请确认数量，点击通知店长></button>
                 </div>
                 <div class="bk_half_area">
-                    <button onclick="_clear()" class="weui_btn weui_btn_default"><清空购物车</button>
+                    <button onclick="_clear()" class="weui_btn weui_btn_default"><清空菜单</button>
                 </div>
             </div>
+         @endif
 </div>
 </body>
 <script type="text/javascript" src="/dengta/js/jquery.min.js"></script>
@@ -79,28 +80,111 @@
 <script type="text/javascript" src="/dengta/js/vue.min.js"></script>
 
 <script>
-    function _clear(){
-                var desk_id="{{$desk_id}}";
-                $.ajax({
-                    type: "GET",
-                    url: '/clear/'+desk_id,
-                    dataType: 'json',
-                    cache: false,
-                    success: function(data) {
-                        /*if(data == null) {
-                            $('.bk_toptips').show();
-                            $('.bk_toptips span').html('服务端错误');
-                            setTimeout(function() {$('.bk_toptips').hide();}, 2000);
-                            return;
-                        }*/
-                        location.href="/home/"+desk_id;
-                        //console.log(data);
-                    }
-                });
+            function _clear(){
+                        var desk_id="{{$desk_id}}";
+                        $.ajax({
+                            type: "GET",
+                            url: '/clear/'+desk_id,
+                            dataType: 'json',
+                            cache: false,
+                            success: function(data) {
+                                /*if(data == null) {
+                                    $('.bk_toptips').show();
+                                    $('.bk_toptips span').html('服务端错误');
+                                    setTimeout(function() {$('.bk_toptips').hide();}, 2000);
+                                    return;
+                                }*/
+                                location.href="/home/"+desk_id;
+                                //console.log(data);
+                            }
+                        });
 
-            }
-    function _gochage(){
-        location.href="/order_commit/"+"{{$desk_id}}";
-    }
+                    }
+                function _gochage(){
+                    location.href="/order_commit/"+"{{$desk_id}}";
+                }
+
+                function _jian(a){
+                    var desk_id="{{$desk_id}}";
+                    var product_number=$(a).parent().find('.product_number');
+                 //alert($(product_number).val());
+                    if(parseInt($(product_number).val())<=1){
+                        // $('.bk_toptips').show();
+                        // $('.bk_toptips span').html('不能少于1');
+                        // setTimeout(function() {$('.bk_toptips').hide();}, 2000);
+                        alert("不能小于1");
+                        return;
+                    }
+                    $(product_number).val(parseInt($(product_number).val())-1);
+                    var danjia=$(a).parent().parent().parent().find('.danjia');
+                        console.log(parseInt($(danjia).html()));
+                        var title_price=$(a).parent().parent().parent().find('.bk_price');
+                        console.log(parseInt($(title_price).text()));
+                        $(title_price).text(parseInt($(title_price).text())-parseInt($(danjia).text()));
+                        var product_id=$(a).parent().parent().parent().attr('product_id');
+                        var product_number=$(a).parent().find('.product_number').val();
+                        console.log(product_id,product_number,desk_id);
+                        ajaxupdatedata(product_id,product_number,desk_id);
+                    }
+
+
+                    function _jia(a){
+                        var desk_id="{{$desk_id}}";
+                        var product_number=$(a).parent().find('.product_number');
+                        if(parseInt($(product_number).val())>=10){
+                            // $('.bk_toptips').show();
+                            // $('.bk_toptips span').html('不能大于10');
+                            // setTimeout(function() {$('.bk_toptips').hide();}, 2000);
+                            alert("不能大于10");
+                            return;
+                        }
+                        $(product_number).val(parseInt($(product_number).val())+1);
+                        var danjia=$(a).parent().parent().parent().find('.danjia');
+                        console.log(parseInt($(danjia).html()));
+                        var title_price=$(a).parent().parent().parent().find('.bk_price');
+                        console.log(parseInt($(title_price).text()));
+                        $(title_price).text(parseInt($(title_price).text())+parseInt($(danjia).text()));
+                        var product_id=$(a).parent().parent().parent().attr('product_id');
+                        var product_number=$(a).parent().find('.product_number').val();
+                        console.log(product_id,product_number,desk_id);
+                        ajaxupdatedata(product_id,product_number,desk_id);
+
+                    }
+
+                      function ajaxupdatedata($gid,$gnb,$deskid){
+                       $.ajax({
+                          url: '/updatecart',
+                          type: 'POST',
+                          dataType: 'json',
+                          cache: false,
+                          data: {product_id:$gid,product_number:$gnb,desk_id:$deskid, _token: "{{csrf_token()}}"},
+                          success:function(data){
+                                console.log(data);
+                          },
+                      });
+                   }
+
+                   function _delcart(a)
+                   {
+                        var desk_id="{{$desk_id}}";
+                        var product_id=$(a).parent().attr('product_id');
+                        $.ajax({
+                          url: '/delcart',
+                          type: 'POST',
+                          dataType: 'json',
+                          cache: false,
+                          data: {product_id:product_id,desk_id:desk_id, _token: "{{csrf_token()}}"},
+                          success:function(data){
+                                if(data.stuts==0){
+                                    location.reload();
+                                }
+                          },
+                      });
+                        
+                   }
+
+
+
+
 </script>
 

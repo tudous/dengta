@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/dengta/css/style.css">
     <link rel="stylesheet" href="/css/weui.css">
     <link rel="stylesheet" href="/css/book.css">
-    <script type="text/javascript" src="/dengta/js/vue.min.js"></script>
+   
 </head>
 <body>
 <div class="header">
@@ -206,7 +206,7 @@
             <!-- <a   class="xhlbtn" href="javascript:void(0)" >清空</a>   -->
         </div>
         <div class="right">
-            <a onclick="_tocharge()" id="btnselect" class="xhlbtn" href="javascript:void(0)">查看订单></a>
+            <a onclick="_tocharge()" id="btnselect" class="xhlbtn" href="javascript:void(0)">查看已点菜单></a>
         </div>
     </div>
 </div>
@@ -231,12 +231,12 @@
                 </p>
             </dd>
         </dl>
-        <dl class="subChose">
+        <!-- <dl class="subChose">
             <textarea style="margin-top:3px;width:100%" name="" placeholder="备注"></textarea>
-            <!-- <dt>口味</dt>
+            <dt>口味</dt>
             <dd class="m-active">辣味</dd>
-            <dd>酸甜</dd> -->
-        </dl>
+            <dd>酸甜</dd>
+        </dl> -->
         <input class="goods_id" type="hidden" name="goods_id" value="">
         <dl class="subCount">
             <dt>购买数量：</dt>
@@ -255,7 +255,7 @@
 
             <div class="bk_fix_bottom">
                 <div class="bk_half_area">
-                    <button class="weui_btn weui_btn_primary" onclick="_addCart();">加入购物车</button>
+                    <button class="weui_btn weui_btn_primary" onclick="_addCart();">加入菜单</button>
                 </div>
             </div>
 
@@ -265,6 +265,7 @@
 <script type="text/javascript" src="/dengta/js/jquery.min.js"></script>
 <script type="text/javascript" src="/dengta/js/add.js"></script>
 <script type="text/javascript" src="/dengta/js/vue.min.js"></script>
+
 <script>
 
        function _jian(a){
@@ -357,14 +358,14 @@
                 location.href="/tocart"+"/{{$desk_id}}";
             }
 
-           /*  $(function(){
+           /* $(function(){
                     //判断页面是否是在微信浏览器打开
                     //对浏览器的UserAgent进行正则匹配，不含有微信独有标识的则为其他浏览器
                     var useragent = navigator.userAgent;
                     if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
-                        window.location.href = "wxError.html";//若不是微信浏览器，跳转到温馨error页面
+                         window.location.href = "wxError.html"; 
                     }
-                }); */
+            });  */
 
 
 

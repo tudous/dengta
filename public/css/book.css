@@ -85,7 +85,7 @@ body,html{height:100%;-webkit-tap-highlight-color:transparent}
 .bk_content {margin-bottom: 50px;}
 .bk_fix_bottom {position: fixed; bottom: 0; width: 100%; background-color:#eeeeee;}
 /*.bk_half_area {width: 100%; padding: 5px 0%; display: inline-block;}*/
-.bk_btn_area {width: 96%; padding: 5px 0%; display: inline-block;}
+.bk_btn_area {width: 100%; padding: 5px 0%; display: inline-block;}
 
 .bk_fix_title{position: fixed; bottom: 0; width: 100%; background-color: #ffffff;margin-bottom: 110px;}
 /* 标题栏 */

@@ -17,6 +17,10 @@ class CartController extends Controller
 			$desk_id=$request->desk_id;
 			$goods_id=$request->goods_id;
 			$goods_number=$request->goods_number;
+            $arr=array(1,2,3,4,5,6,7,8,9,10);
+            if(!in_array($desk_id,$arr)){
+                return "FWQ is error";
+            }
 
 			$cart=Cart::where([
                 ['desk_id',$desk_id],
@@ -49,6 +53,10 @@ class CartController extends Controller
 
 		public function destroy($id)
 		{
+            $arr=array(1,2,3,4,5,6,7,8,9,10);
+            if(!in_array($id,$arr)){
+                return "FWQ is error";
+            }
 			$carts=Cart::where('desk_id',$id)->delete();
 			return $carts;
 		}
@@ -57,6 +65,10 @@ class CartController extends Controller
 		public function index(Request $request)
 		{
             $desk_id=$request->cart_id;
+            $arr=array(1,2,3,4,5,6,7,8,9,10);
+            if(!in_array($desk_id,$arr)){
+                return "FWQ is error";
+            }
     	    $carts=\DB::table('carts')->where('desk_id',$desk_id)->get();
             $carts=$carts->toArray();
             $cart=array();
@@ -83,4 +95,39 @@ class CartController extends Controller
 			
 			return view('cart',compact('cart','title','desk_id'));
 		}
+
+        public function updatecart(Request $request)
+        {
+             $product_id=$request->product_id;
+             $product_number=$request->product_number;
+             $desk_id=$request->desk_id;
+            $arr=array(1,2,3,4,5,6,7,8,9,10);
+            if(!in_array($desk_id,$arr)){
+                return "FWQ is error";
+            }
+             $cart=Cart::where('desk_id',$desk_id)->where('goods_id',$product_id)->update(['goods_number'=>$product_number]);
+             if($cart){
+                return "update success";
+             }else{
+                return "update fail";
+             }  
+        }
+
+        public function delcart(Request $request)
+        {
+            $product_id=$request->product_id;
+            $desk_id=$request->desk_id;
+            $arr=array(1,2,3,4,5,6,7,8,9,10);
+            if(!in_array($desk_id,$arr)){
+                return "FWQ is error";
+            }
+            $cart=Cart::where('desk_id',$desk_id)->where('goods_id',$product_id)->delete();
+             if($cart){
+                return array('stuts'=>0,'msg'=>'del success');
+             }else{
+                return array('stuts'=>1,'msg'=>'del success');
+             }  
+
+        }
+
 }

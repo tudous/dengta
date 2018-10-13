@@ -1,0 +1,1023 @@
+[2018-10-13 07:12:51] NULL.DEBUG: Request received: {"method":"GET","uri":"http://81a9149b.au.ngrok.io/wechat?echostr=8015992611989085178&nonce=1617200644&signature=252f34bcef17618908ed9cca47de4c0828af09ab&timestamp=1539414770","content-type":null,"content":""} 
+[2018-10-13 07:12:51] NULL.DEBUG: Server response created: {"content":"8015992611989085178"} 
+[2018-10-13 07:15:11] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 223
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"3.桌点餐如下:\n合计消费61\n可乐    4.00元X1份\n凉拌黄瓜    10.00元X2份\n三鲜汤    33.00元X1份\n可乐    4.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:15:11 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:16:49] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 204
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"3.桌点餐如下:\n合计消费218\n凉拌黄瓜    10.00元X1份\n四川火锅    200.00元X1份\n啤酒    8.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:16:49 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:18:01] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 180
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费210\n凉拌黄瓜    10.00元X1份\n四川火锅    200.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:18:01 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:28:10] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 115
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费0\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:28:10 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:29:50] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:29:50 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:46:01] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费400\n四川火锅    200.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:46:02 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 07:47:50] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_orfjxGOtum-tLXSSEA9k20VXnrZ-Tb8wXU5nK3uLjVfcYUotprhmBHxEDlmU7hNhW0jKTzCRjhUhRYHVVnIQDl2RVcWU4Dj9U05PilWcLLSHjMloCGxUnwvT4ZJFLQFKeNxNJVLFuasqJiCGHVQcAGAQEZ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 139
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费5\n包子    5.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 07:47:50 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 10:08:39] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 206
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费980\n面皮    10.00元X10份\n凉拌黄瓜    10.00元X8份\n四川火锅    200.00元X4份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 10:08:39 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 10:10:53] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 181
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费4440\n凉拌黄瓜    10.00元X4份\n卤肉卷饼    880.00元X5份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 10:10:54 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 10:13:59] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费400\n四川火锅    200.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 10:13:59 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 10:55:00] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 147
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n凉拌黄瓜    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 10:55:00 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 10:57:48] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费200\n四川火锅    200.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 10:57:48 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:00:16] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:00:16 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:00:16] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"2.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:00:17 GMT
+Content-Length: 105
+
+{"errcode":45015,"errmsg":"response out of time limit or subscription is canceled hint: [ml33904164100]"}
+--------
+NULL  
+[2018-10-13 11:01:12] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"2.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:01:12 GMT
+Content-Length: 106
+
+{"errcode":45015,"errmsg":"response out of time limit or subscription is canceled hint: [ZBbsQa04723955]"}
+--------
+NULL  
+[2018-10-13 11:02:53] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 147
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"2.桌点餐如下:\n合计消费10\n凉拌黄瓜    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:02:54 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:03:34] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费880\n卤肉卷饼    880.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:03:34 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:03:34] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"2.桌点餐如下:\n合计消费880\n卤肉卷饼    880.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:03:34 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:06:36] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 139
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费4\n可乐    4.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:06:36 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:06:36] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 139
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"1.桌点餐如下:\n合计消费4\n可乐    4.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:06:36 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:07:58] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 201
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费474\n四川火锅    200.00元X2份\n可乐    4.00元X2份\n三鲜汤    33.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:07:59 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:07:59] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 201
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"1.桌点餐如下:\n合计消费474\n四川火锅    200.00元X2份\n可乐    4.00元X2份\n三鲜汤    33.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:07:59 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:29:26] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 144
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费33\n三鲜汤    33.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:29:26 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:29:26] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 144
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"1.桌点餐如下:\n合计消费33\n三鲜汤    33.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:29:26 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:34:21] NULL.NOTICE: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+
+--------
+cURL error 35: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.weixin.qq.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)  
+[2018-10-13 11:35:13] NULL.NOTICE: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+
+--------
+cURL error 35: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.weixin.qq.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)  
+[2018-10-13 11:38:31] NULL.NOTICE: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+
+--------
+cURL error 35: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.weixin.qq.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)  
+[2018-10-13 11:38:39] NULL.NOTICE: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+
+--------
+cURL error 35: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.weixin.qq.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)  
+[2018-10-13 11:40:02] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:40:02 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:40:02] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wjINSB60-Vkw_uXwfhe6rUQ","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:40:03 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:46:23] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:46:23 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 11:51:26] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_s62tlYDHpTbUsGnXLbWn6o7ccByndMugWr8XXKQd5LfIFr-QrBelfDLWdQnXbdkEEaB0D_jdc06NyCTjuIcLwoWUt5M1KOi9SMe29Vwt6yFOjRggL0In05MrFl8sutxUbD5kEroNykoHbtvVQPAaAEAXWH HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 142
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"10.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 11:51:26 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 12:06:27] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_E4CtO0DhRNJOVeJ945Y8sK3ZnnPxHjiPIqul5L7jp2Qa2nM6-XfU2GW3QUYslphIisfIQ_z3p1uSPPrRXRuaxs8APwjTWSn_3msNX_gsIVWvQ6ACnAum2BDyPJgBMBgAAAEPE HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 180
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费210\n四川火锅    200.00元X1份\n凉拌黄瓜    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:06:27 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 12:10:33] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_E4CtO0DhRNJOVeJ945Y8sK3ZnnPxHjiPIqul5L7jp2Qa2nM6-XfU2GW3QUYslphIisfIQ_z3p1uSPPrRXRuaxs8APwjTWSn_3msNX_gsIVWvQ6ACnAum2BDyPJgBMBgAAAEPE HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 196
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"5.桌点餐如下:\n合计消费58\n包子    5.00元X1份\n肉夹馍    10.00元X2份\n三鲜汤    33.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:10:33 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 12:17:22] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_E4CtO0DhRNJOVeJ945Y8sK3ZnnPxHjiPIqul5L7jp2Qa2nM6-XfU2GW3QUYslphIisfIQ_z3p1uSPPrRXRuaxs8APwjTWSn_3msNX_gsIVWvQ6ACnAum2BDyPJgBMBgAAAEPE HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 167
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费108\n面皮    10.00元X2份\n饺子    44.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Date: Sat, 13 Oct 2018 12:17:22 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 109
+
+{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [tSOd800428051!]"}
+--------
+NULL  
+[2018-10-13 12:17:22] NULL.DEBUG: Retrying with refreshed access token.  
+[2018-10-13 12:17:23] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 167
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"2.桌点餐如下:\n合计消费108\n面皮    10.00元X2份\n饺子    44.00元X2份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:17:23 GMT
+Content-Length: 79
+
+{"errcode":45047,"errmsg":"out of response count limit hint: [ibDnrA0043shc1]"}
+--------
+NULL  
+[2018-10-13 12:18:15] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:18:16 GMT
+Content-Length: 79
+
+{"errcode":45047,"errmsg":"out of response count limit hint: [46WrAA00963950]"}
+--------
+NULL  
+[2018-10-13 12:20:19] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:20:19 GMT
+Content-Length: 79
+
+{"errcode":45047,"errmsg":"out of response count limit hint: [qEIwHa02193933]"}
+--------
+NULL  
+[2018-10-13 12:21:08] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:21:09 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 12:22:05] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:22:05 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 12:25:25] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费11\n出口    11.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 12:25:25 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:28:39] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 177
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费210\n四川火锅    200.00元X1份\n肉夹馍    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:28:39 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:30:21] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n面皮    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:30:21 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:30:34] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 115
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费0\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:30:35 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:31:28] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:31:28 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:31:43] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:31:43 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:32:03] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 115
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费0\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:32:03 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:32:03] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 115
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费0\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:32:04 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:32:38] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 147
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n凉拌黄瓜    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:32:38 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:33:00] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 180
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费890\n凉拌黄瓜    10.00元X1份\n卤肉卷饼    880.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:33:01 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:33:01] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 115
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费0\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:33:01 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:33:18] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 139
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费3\n稀饭    3.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:33:18 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:33:42] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 139
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费4\n可乐    4.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:33:42 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:34:27] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 144
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费50\n肉夹馍    10.00元X5份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:34:27 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:37:56] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 147
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费10\n凉拌黄瓜    10.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:37:57 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:40:12] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:40:12 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:55:07] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 141
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费44\n饺子    44.00元X1份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:55:08 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-10-13 13:57:26] NULL.INFO: >>>>>>>>
+POST /cgi-bin/message/custom/send?access_token=14_R9lMkQ1nvLzTjQxc8XOrSy36gtF5cRWES7aPy7HCZjJZe9Livv4_GjQsECvplcrS6Ni2PzD9kKrToYDw-4TmAlUiBEb_2M7oQ447VJ6s7R0GX0b5IoIxWxQlB7XQKYCYaJA6RK6iF6xjrU8oQBQgADAVGV HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 149
+User-Agent: GuzzleHttp/6.3.3 curl/7.57.0 PHP/7.2.2
+Content-Type: application/json
+
+{"msgtype":"text","touser":"o5TJ7wufUA8c7NW6zurTrM14qLQo","text":{"content":"1.桌点餐如下:\n合计消费100\n凉拌黄瓜    10.00元X10份\n"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Sat, 13 Oct 2018 13:57:26 GMT
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
